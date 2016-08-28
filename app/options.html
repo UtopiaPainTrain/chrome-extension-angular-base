@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+    <title>My Test Extension Options</title>
+</head>
+<body>
+
+<form style="width: 75%;padding-left: 25%;">
+    <fieldset>
+        <legend>Forum agent settings</legend>
+        <div class="form-group">
+            <label for="setUrl">Forum Agent URL: </label>
+            <input id="setUrl" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+            <label for="setUsername">Forum Agent Username: </label>
+            <input id="setUsername" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+            <label for="setPassword">Forum Agent Password: </label>
+            <input id="setPassword" class="form-control" type="password">
+        </div>
+
+        <div class="form-group">
+            <label for="setProvinceName">Province Name: </label>
+            <input id="setProvinceName" class="form-control" type="text">
+        </div>
+    </fieldset>
+
+    <div id="status"></div>
+    <button id="save" class="btn btn-success">Save</button>
+</form>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="scripts/options.js"></script>
+</body>
+</html>
